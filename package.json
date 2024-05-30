@@ -1,0 +1,33 @@
+{
+  "name": "full_backend",
+  "version": "1.0.0",
+  "description": "Tap lam full backend0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanduccongquang/ResfulAPI_withNODEjs.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Quang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanduccongquang/ResfulAPI_withNODEjs/issues"
+  },
+  "homepage": "https://github.com/phanduccongquang/ResfulAPI_withNODEjs#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "4.18.2",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
